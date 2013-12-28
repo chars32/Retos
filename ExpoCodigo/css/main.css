@@ -1,0 +1,51 @@
+body{
+    background: #e5e5e5;
+}
+
+header #logo, #buscador{
+    text-align: center;
+}
+
+header #img_logo{
+    width: 90%;
+}
+
+header input{
+    font-size: 1em;
+    padding: 0.3em;
+}
+
+header input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 0 2px red;
+}
+
+header button {
+    border: 1px solid gray;
+    box-shadow: 0 0 2px gray;
+    padding: 0.3em 0.6em;
+}
+
+a{
+    background: #4f4f4f;
+    color: white;
+    padding: 0.3em 0;
+}
+
+nav{
+    border: 2px solid green;
+    margin: auto;
+    padding: 0;
+    width: 85%;
+}
+nav h4, nav p{
+    display: inline-block;
+}
+
+nav h4{
+    padding: 0 1em;
+}
+
+nav p{
+    margin-left: 6em;
+}
