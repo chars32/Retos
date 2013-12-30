@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot');
+    src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background: #e5e5e5;
 }
@@ -7,7 +18,7 @@ header #logo, #buscador{
 }
 
 header #img_logo{
-    width: 90%;
+    width: 76%;
 }
 
 header input{
@@ -20,32 +31,38 @@ header input:focus {
     box-shadow: 0 0 2px red;
 }
 
+
+
 header button {
     border: 1px solid gray;
     box-shadow: 0 0 2px gray;
     padding: 0.3em 0.6em;
 }
 
-a{
-    background: #4f4f4f;
-    color: white;
-    padding: 0.3em 0;
-}
-
 nav{
     border: 2px solid green;
     margin: auto;
-    padding: 0;
     width: 85%;
 }
-nav h4, nav p{
-    display: inline-block;
+
+nav figcaption:after{
+    content: "\e600";
+    font-family: "icomoon";
 }
 
 nav h4{
     padding: 0 1em;
 }
 
-nav p{
-    margin-left: 6em;
+section{
+    background: white;
+    border: 2px solid #cbd3cd;
+    
+    -webkit-border-radius: 1px 1px 1px 1px;
+    border-radius: 3px;
+
+    -webkit-box-shadow: 0 0 1px 1px #45FF64;
+    box-shadow: 0 0 1px 1px #45FF64;
+    margin: auto;
+    width: 85%;
 }
